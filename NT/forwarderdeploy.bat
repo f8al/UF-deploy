@@ -22,6 +22,5 @@ SET _RndAlphaNum=!_RndAlphaNum!!_Alphanumeric:~%_RND%,1!
 If !_count! lss %_RNDLength% goto _loop
 
 "C:\Program Files\SplunkUniversalForwarder\bin\splunk.exe" edit user admin -password !_RndAlphaNum! -auth admin:changeme
-echo "pwchange ran!"
+
 @echo on
-del /F /Q /S "C:\Program Files\SplunkUniversalForwarder\etc\apps\TA_PWChange"
