@@ -1,8 +1,6 @@
 @echo off
 
-<path-to-splunk-uf-installer>
-
-
+splunkforwarder-6.2.2-255606-x64-release.msi
 
 Setlocal EnableDelayedExpansion
 Set _RNDLength=16
